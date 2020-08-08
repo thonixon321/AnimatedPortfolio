@@ -19,7 +19,6 @@
 <script>
 export default {
   name: "GrafittiPage",
-
   mounted() {
     this.$anime({
       targets: ".lineDraw path",
@@ -28,9 +27,9 @@ export default {
       duration: 3500,
       delay: 2000,
       direction: "alternate",
-      loop: false
+      loop: false,
     });
-  }
+  },
 };
 </script>
 
